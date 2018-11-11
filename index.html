@@ -2,12 +2,21 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <link rel="stylesheet" href="./sass/styles.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div class="container">
+      <div class="topbar">
+        <p id="title">Flashcards</p>
+      </div>
+      <div id="headers">
+        <h1>Term</h1>
+        <h1>Definition</h1>
+      </div>
+      <div id="create">
+        <img  id="plus" src="./assets/plus.svg"  width="40px" height="40px" alt="plus" srcset="">
+      </div>
+    </div>
+    <script src="/js/index.js"></script>
   </body>
 </html>

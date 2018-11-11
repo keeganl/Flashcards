@@ -18,5 +18,8 @@
   "homepage": "https://github.com/keeganl/Flashcards#readme",
   "devDependencies": {
     "electron": "^3.0.8"
+  },
+  "dependencies": {
+    "electron-db": "^0.8.1"
   }
 }
